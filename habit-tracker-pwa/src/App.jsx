@@ -69,7 +69,7 @@ function App() {
             type="text" 
             value={input} 
             onChange={(e) => setInput(e.target.value)} 
-            placeholder="New Habit" 
+            placeholder="New Habit..." 
             className="flex-1 p-4 outline-none text-lg rounded-xl"
           />
           <button onClick={addHabit} className="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold">
